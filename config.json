@@ -1,0 +1,27 @@
+{
+    "shopify": {
+        "store_url": "your-store.myshopify.com",
+        "access_token": "shpat_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "supplier": {
+        "provider": "CJ_DROPSHIPPING",
+        "api_key": "cjdropshipping_api_key_placeholder"
+    },
+    "ai_media": {
+        "provider": "openai",
+        "api_key": "sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "schedule": {
+        "inventory_sync_minutes": 30,
+        "product_research_hours": 6
+    },
+    "paddle": {
+        "vendor_id": "428992",
+        "price_id": "pri_01m34femy13vk9evw0n75bevan",
+        "api_key": "pdl_live_apikey_01m34f1y3mybf6tjseq5qg6dp3_ApcPWvAtvrV7CEDDVndx7a_A0I",
+        "environment": "live"
+    },
+    "payoneer": {
+        "receiving_email": "your-payoneer-email@domain.com"
+    }
+}
