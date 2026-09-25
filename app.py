@@ -182,13 +182,13 @@ def cleanup_old_media():
                 print(f"[Cleanup Error] {e}")
 
 def start_background_agent():
-    print("[Flask] Starting background dropshipping agent thread...")
+    print("[Flask] Starting background media cleanup routine...")
     while True:
         try:
             cleanup_old_media()
         except Exception as e:
             print(f"Cleanup error: {e}")
-        time.sleep(3600) # Run cleanup hourly
+        time.sleep(3600)
 
 if __name__ == '__main__':
     agent_thread = threading.Thread(target=start_background_agent, daemon=True)
